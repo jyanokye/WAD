@@ -7,5 +7,4 @@ def fizzbuzz():
     numbers = list(range(1, 101))
     return render_template('fizzbuzz.html', numbers=numbers)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
